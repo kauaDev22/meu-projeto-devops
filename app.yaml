@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: minha-api-container
-        image: kaua010/my-api-devops:v1
+        image: kaua010/my-api-devops:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
 ---
