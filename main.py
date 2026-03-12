@@ -25,7 +25,7 @@ def get_db_connection():
 
 @app.get("/")
 def home():
-    return {"status": "Backend na nuvem operante! 🚀"}
+    return {"status": "Backend atualizado 100% no automático pelo CI/CD! 🤖"}
 
 @app.get("/mensagens")
 def listar_mensagens():
